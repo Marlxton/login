@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+body {
+  font-family: 'Poppins';
+  margin: 0;
+  background-image: url(/pics/bg.jpg);
+  background-size: cover;
+  position: relative;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 2em 2em 2em 5em;
+}
+
+header .name {
+  color: #2AA8C9;
+  font-size: 1rem;
+}
+
+header .nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #2AA8C9;
+  margin: 1.3em;
+  margin-left: 5em;
+}
+
+header a {
+  text-decoration: none;
+  color: #2AA8C9;
+  font-weight: normal;
+  font-size: .9rem;
+}
+
+section {
+  margin: 2em 2em 2em 5em;
+  color: white;
+  padding-bottom: .8em;
+}
+
+section .start h2 {
+  font-size: 1rem;
+  font-weight: bold;
+  letter-spacing: .3em;
+  margin-bottom: -2em;
+}
+
+section .start h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+section .start h3 {
+  font-size: .8rem;
+  font-weight: normal;
+  font-style: italic;
+  margin-top: -2em;
+}
+
+section .start h3 span {
+  color: #2AA8C9;
+  font-weight: normal;
+}
+
+section .start h3 span a {
+  text-decoration: none;
+  color: #2AA8C9;
+}
+
+section .input {
+  color: black;
+}
+
+section .input .first-last {
+  font-size: .8rem;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+section .input .first-last .first {
+  margin-right: 1.5em;
+  border-radius: 2em;
+  width: 170px;
+  height: 20px;
+}
+
+section .input .first-last .last {
+  margin-left: 1.5em;
+  border-radius: 2em;
+  width: 170px;
+  height: 20px;
+}
+
+section .input .mail-pass {
+  color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 400px;
+  font-weight: bold;
+  font-size: .8rem;
+  text-align: left;
+}
+
+section .input .mail-pass .mail {
+  border-radius: 2em;
+  height: 20px;
+  margin-bottom: 1em;
+  background: #908891;
+}
+
+section .input .mail-pass .pass {
+  border-radius: 2em;
+  height: 20px;
+  margin-bottom: 1em;
+  background: #908891;
+}
+
+section .input .down-btn {
+  color: black;
+  font-size: .8rem;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+section .input .down-btn a {
+  text-decoration: none;
+  color: black;
+}
+
+section .input .down-btn .change {
+  background: #908891;
+  margin-right: 1.5em;
+  border-radius: 1em;
+  width: 170px;
+  height: 25px;
+}
+
+section .input .down-btn .create {
+  background: #908891;
+  margin-left: 2.5em;
+  border-radius: 1em;
+  width: 170px;
+  height: 25px;
+}
+/*# sourceMappingURL=main.css.map */
